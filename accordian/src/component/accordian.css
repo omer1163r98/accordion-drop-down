@@ -1,0 +1,33 @@
+.question{
+    text-align: center;
+    column-gap: 10px;
+    background-color: rgb(56, 56, 56);
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+   
+}
+
+.answer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+}
+.question p{
+    font-size: 20px;
+    cursor: pointer;
+}
+.container{
+    background-color: rgb(103, 103, 103);
+    padding: 30px;
+    max-width: 600px;
+    max-height: 1000px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
